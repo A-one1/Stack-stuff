@@ -1,7 +1,20 @@
 import java.io.*;
 
 public class InfixToPostFix {
- 
+    public static void main(String[] args) throws IOException {
+        String file = "D:\\SELU\\390\\program 2\\data.txt";
+        BufferedReader bufferedReader = new BufferedReader(new FileReader(file));
+
+        String curLine;
+        while ((curLine = bufferedReader.readLine()) != null) {
+            // process the line as required
+            iTF(curLine);
+            System.out.println("\n");
+
+        }
+        bufferedReader.close();
+
+    }
 
     static String iTF(String equation) {
         String postFix = " ";
