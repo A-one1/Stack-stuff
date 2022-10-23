@@ -38,7 +38,7 @@ public class PostFixEval {
             } else if (ch == '*') {
                 y = solve.pop();
                 x = solve.pop();
-                z = x x y;
+                z = x * y;
                 solve.push(z);
             } else if (ch == '/') {
                 y = solve.pop();
