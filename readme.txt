@@ -1,5 +1,4 @@
 Implement the following algorithms in code using the stack and queue methods
-developed in exercises 1, 2 and 3:
 a. Parentheses/equation validation
 b. Infix to postfix expression conversion
 c. Postfix equation evaluation
